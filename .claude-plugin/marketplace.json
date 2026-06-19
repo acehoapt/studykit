@@ -1,0 +1,16 @@
+{
+  "name": "studykit",
+  "owner": {
+    "name": "Tan"
+  },
+  "metadata": {
+    "description": "Study tools for senior students. Install: /plugin marketplace add <github-user>/studykit then /plugin install studykit@studykit. After installing, run /setup from a new folder you want to use for schoolwork."
+  },
+  "plugins": [
+    {
+      "name": "studykit",
+      "source": "./plugins/studykit",
+      "description": "Onboards your subjects and generates a project CLAUDE.md, scaffolds assignments (thesis -> structure -> evidence -> technique -> A-grade angles), and learns to write in your own voice. You write the prose; it does the analytical heavy lifting."
+    }
+  ]
+}
